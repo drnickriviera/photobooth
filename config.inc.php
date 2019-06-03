@@ -22,8 +22,8 @@ $config['cheese_time'] = '1000'; // control time for cheeeeese!
 $config['language'] = 'de';
 
 // StartScreen
-$config['start_screen_title'] = 'Photobooth';
-$config['start_screen_subtitle'] = 'Webinterface by André Rinas';
+$config['start_screen_title'] = 'Fotobox';
+$config['start_screen_subtitle'] = 'Bitte lächeln!';
 
 // FOLDERS
 // change the folders to whatever you like
