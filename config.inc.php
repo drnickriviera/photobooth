@@ -13,7 +13,7 @@ $config['use_qr'] = true;
 $config['use_mail'] = false; // mail data needs to be configured
 $config['show_fork'] = true;
 $config['previewFromCam'] = false; // experimental see https://github.com/andreknieriem/photobooth/pull/30
-$config['file_format_date'] = false;
+$config['file_format_date'] = true;
 $config['cntdwn_time'] = '5'; // control countdown timer
 $config['cheese_time'] = '1000'; // control time for cheeeeese!
 
@@ -37,7 +37,7 @@ $config['folders']['print'] = 'print';
 $config['gallery']['show_gallery'] = true;
 $config['gallery']['newest_first'] = true;
 $config['gallery']['scrollbar'] = false;
-$config['gallery']['show_date'] = false; // only works if file_format_date = true
+$config['gallery']['show_date'] = true; // only works if file_format_date = true
 $config['gallery']['date_format'] = 'd.m.Y - G:i';
 
 // EMAIL
