@@ -37,10 +37,11 @@ require_once('db.php');
 <body class="deselect">
 	<div id="wrapper">
 
-		<div id="gallery">
+		<!-- Start Page -->
+		<div class="stages" id="start">
 			<div class="galInner">
 				<div class="galHeader">
-					<h1><span data-l10n="ggallery"></span></h1>
+					<h1><span data-l10n="gallery"></span></h1>
 					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
 				</div>
 				<div class="images" id="galimages">
