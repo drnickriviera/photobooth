@@ -9,8 +9,8 @@ $config = array();
 $sys['os'] = (DIRECTORY_SEPARATOR == '\\') || (strtolower(substr(PHP_OS, 0, 3)) === 'win') ? 'windows' : 'linux';
 $config['dev'] = false;
 $config['use_print'] = false;
-$config['use_qr'] = true;
-$config['show_fork'] = true;
+$config['use_qr'] = false;
+$config['show_fork'] = false;
 $config['previewFromCam'] = false; // experimental see https://github.com/andreknieriem/photobooth/pull/30
 #$config['file_format'] = 'date'; // comment in to get dateformat images
 
