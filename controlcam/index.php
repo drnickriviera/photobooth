@@ -77,7 +77,7 @@ require_once('../db.php');
 			<?php if($config['use_qr']){ echo '<div class="qr"></div>';} ?>
 		</div>
 
-		<!-- Gallery -->
+		<!-- GGallery -->
 		<div id="gallery">
 			<div class="galInner">
 				<div class="galHeader">
