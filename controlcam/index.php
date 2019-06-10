@@ -2,7 +2,7 @@
 
 require_once('../config.inc.php');
 require_once('../folders.php');
-require_once('../db.php');
+require_once('db.php');
 
 ?>
 <html>
@@ -77,11 +77,11 @@ require_once('../db.php');
 			<?php if($config['use_qr']){ echo '<div class="qr"></div>';} ?>
 		</div>
 
-		<!-- GGallery -->
+		<!-- Gallery -->
 		<div id="gallery">
 			<div class="galInner">
 				<div class="galHeader">
-					<h1><span data-l10n="gallery"></span></h1>
+					<h1><span data-l10n="ggallery"></span></h1>
 					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
 				</div>
 				<div class="images" id="galimages">
