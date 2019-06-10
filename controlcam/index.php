@@ -37,47 +37,6 @@ require_once('db.php');
 <body class="deselect">
 	<div id="wrapper">
 
-		<!-- Start Page -->
-		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
-			<div class="blurred">
-			</div>
-			<div class="inner">
-				<div class="names"><hr class="small" /><hr><div data-l10n="startScreen"></div><hr><hr class="small" /></div>
-				<a href="#" class="btn takePic"><i class="fa fa-camera"></i> <span data-l10n="takePhoto"></span></a>
-			</div>
-		</div>
-
-		<!-- Loader -->
-		<div class="stages" id="loader">
-			<?php
-				if($config['previewFromCam']) {
-					echo '<video id="video" autoplay></video>';
-				}
-			?>
-			<div class="loaderInner">
-			<div class="spinner">
-				<i class="fa fa-cog fa-spin"></i>
-			</div>
-
-			<div id="counter"></div>
-			<div class="loading"></div>
-			</div>
-		</div>
-
-		<!-- Result Page -->
-		<div class="stages" id="result">
-			<a href="#" class="btn homebtn"><i class="fa fa-home"></i> <span data-l10n="home"></span></a>
-			<div class="resultInner hidden">
-			<a href="#" class="btn gallery"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
-			<?php if($config['use_qr']){ echo '<a href="#" class="btn qrbtn"><span class="qrbtnlabel"><i class="fa fa-qrcode"></i> <span data-l10n="qr"></span></span></a>'; } ?>
-			<?php if($config['use_print']){ echo '<a href="#" class="btn printbtn"><i class="fa fa-print"></i> <span data-l10n="print"></span></a>'; } ?>
-			<a href="#" class="btn newpic"><i class="fa fa-camera"></i> <span data-l10n="newPhoto"></span></a>
-			</div>
-			<?php if($config['use_qr']){ echo '<div class="qr"></div>';} ?>
-		</div>
-
-		<!-- Gallery -->
 		<div id="gallery">
 			<div class="galInner">
 				<div class="galHeader">
