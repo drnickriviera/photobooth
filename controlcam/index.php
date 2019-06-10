@@ -89,8 +89,8 @@ require_once('../db.php');
 					$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
 					foreach($imagelist as $image) {
 
-						$filename_photo = $config['folders']['images'] . DIRECTORY_SEPARATOR . $image;
-						$filename_thumb = $config['folders']['thumbs'] . DIRECTORY_SEPARATOR . $image;
+						$filename_photo = '..' . DIRECTORY_SEPARATOR . $config['folders']['images'] . DIRECTORY_SEPARATOR . $image;
+						$filename_thumb = '..' . DIRECTORY_SEPARATOR . $config['folders']['thumbs'] . DIRECTORY_SEPARATOR . $image;
 
 						echo '<a href="'.$filename_photo.'" data-size="1920x1280">
 								<img src="'.$filename_thumb.'" />
