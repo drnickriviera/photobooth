@@ -553,6 +553,7 @@ hr.small {
 
 /* line 511, ../sass/style.scss */
 #gallery .images figure {
+  display: block;
 }
 
 /* line 515, ../sass/style.scss */
