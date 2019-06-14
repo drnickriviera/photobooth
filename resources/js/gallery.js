@@ -241,10 +241,15 @@ var photoBooth = (function () {
     });
 
     // Open Gallery Button
+//    $('#result .gallery, #start .gallery').click(function (e) {
+//        e.preventDefault();
+//        public.openGallery($(this));
+//    });
+
     $(document).ready(function ({
-        e.preventDefault();
         public.openGallery($(this));
     });
+
 
     // Close Gallery Overview
     $('.close_gal').click(function (e) {
