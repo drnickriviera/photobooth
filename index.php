@@ -90,31 +90,6 @@ require_once('db.php');
 			</div>
 			<?php if($config['use_qr']){ echo '<div class="qr"></div>';} ?>
 		</div>
-
-		<!-- Gallery -->
-		<div id="gallery">
-			<div class="galInner">
-				<div class="galHeader">
-					<h1><span data-l10n="gallery"></span></h1>
-					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
-				</div>
-				<div class="images" id="galimages">
-					<?php
-					$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
-					foreach($imagelist as $image) {
-
-						$filename_photo = $config['folders']['images'] . DIRECTORY_SEPARATOR . $image;
-						$filename_thumb = $config['folders']['thumbs'] . DIRECTORY_SEPARATOR . $image;
-
-						echo '<a href="'.$filename_photo.'" data-size="1920x1280">
-								<img src="'.$filename_thumb.'" />
-								<figure>Caption</figure>
-							</a>';
-					}
-					?>
-				</div>
-			</div>
-		</div>
 	</div>
 
 
