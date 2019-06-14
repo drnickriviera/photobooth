@@ -34,12 +34,12 @@ require_once('db.php');
 		var gallery_newest_first = <?php echo ($config['gallery']['newest_first']) ? 'true' : 'false'; ?>;
 	</script>
 </head>
-<body class="deselect">
+<body class="deselect", onload=openGallery>
 	<div id="wrapper">
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<span data-l10n="gallery"></span>
+			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
 			<div class="blurred">
 			</div>
 			<div class="inner">
