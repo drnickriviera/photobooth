@@ -38,16 +38,30 @@ require_once('db.php');
 	<div id="wrapper">
 
 		<!-- Start Page -->
-		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
-			<div class="blurred">
-			</div>
-			<div class="inner">
-				<div class="names"><hr class="small" /><hr><div data-l10n="startScreen"></div><hr><hr class="small" /></div>
-				<a href="#" class="btn takePic"><i class="fa fa-camera"></i> <span data-l10n="takePhoto"></span></a>
+		<div id="gallery">
+			<div class="galInner">
+				<div class="galHeader">
+					<h1><span data-l10n="gallery"></span></h1>
+					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
+				</div>
+				<div class="images" id="galimages">
+					<?php
+					$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
+					foreach($imagelist as $image) {
+
+						$filename_photo = $config['folders']['images'] . DIRECTORY_SEPARATOR . $image;
+						$filename_thumb = $config['folders']['thumbs'] . DIRECTORY_SEPARATOR . $image;
+
+						echo '<a href="'.$filename_photo.'" data-size="1920x1280">
+								<img src="'.$filename_thumb.'" />
+								<figure>Caption</figure>
+							</a>';
+					}
+					?>
+				</div>
 			</div>
 		</div>
-
+		
 		<!-- Loader -->
 		<div class="stages" id="loader">
 			<?php
