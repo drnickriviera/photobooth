@@ -34,7 +34,7 @@ require_once('db.php');
 		var gallery_newest_first = <?php echo ($config['gallery']['newest_first']) ? 'true' : 'false'; ?>;
 	</script>
 </head>
-<body class="deselect", onload="openGallery($(this))">"
+<body class="deselect", onload="openGallery()">"
 	<div id="wrapper">
 
 		<!-- Start Page -->
@@ -61,7 +61,7 @@ require_once('db.php');
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Loader -->
 		<div class="stages" id="loader">
 			<?php
