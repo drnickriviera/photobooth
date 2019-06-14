@@ -64,7 +64,6 @@ var photoBooth = (function () {
         public.initPhotoSwipeFromDOM('#galimages');
 
         startPage.show();
-        public.openGallery($(this));
     }
 
     // check for resizing
@@ -242,7 +241,7 @@ var photoBooth = (function () {
     });
 
     // Open Gallery Button
-    $('#result .gallery, #start .gallery').click(function (e) {
+    $(document).ready(function (e) {
         e.preventDefault();
         public.openGallery($(this));
     });
