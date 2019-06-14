@@ -78,7 +78,7 @@ require_once('db.php');
 		</div>
 
 		<!-- Gallery -->
-		<div id="gallery">
+		<div id="stages">
 			<div class="galInner">
 				<div class="galHeader">
 					<h1><span data-l10n="gallery"></span></h1>
