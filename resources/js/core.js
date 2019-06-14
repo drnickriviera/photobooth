@@ -241,7 +241,7 @@ var photoBooth = (function () {
     });
 
     // Open Gallery Button
-    $('#result .gallery, #start .gallery').load(function (e) {
+    $('#result .gallery, #start .gallery').click(function (e) {
         e.preventDefault();
         public.openGallery($(this));
     });
