@@ -39,7 +39,6 @@ require_once('../folders.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
 			<div class="blurred">
 			</div>
 			<div class="inner">
