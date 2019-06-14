@@ -39,7 +39,7 @@ require_once('db.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-				<div class="galInner">
+				<div id="gallery">
 					<div class="images" id="galimages">
 						<?php
 						$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
