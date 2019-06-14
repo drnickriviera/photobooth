@@ -131,7 +131,7 @@ var photoBooth = (function () {
     public.renderPic = function (result) {
         // Add QR Code Image
         $('.qr').html('');
-        $('<img src="qrcode.php?filename=' + result.img + '"/>').load(function () {
+        $('<img src="../qrcode.php?filename=' + result.img + '"/>').load(function () {
             $(this).appendTo($('.qr'));
             $('<p>').html(L10N.qrHelp).appendTo($('.qr'));
         });
