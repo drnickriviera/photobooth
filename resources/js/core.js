@@ -336,7 +336,7 @@ var photoBooth = (function () {
 
         // Go to Home
         if (target.hasClass('homebtn') || target.closest('.homebtn').length > 0) {
-            window.location = window.location.origin;
+            window.location = window.location.origin + 'controlcam';
         }
 
         // Qr in and out
