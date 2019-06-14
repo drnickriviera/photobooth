@@ -39,7 +39,6 @@ require_once('db.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<div id="gallery">
 				<div class="galInner">
 					<div class="images" id="galimages">
 						<?php
@@ -55,7 +54,6 @@ require_once('db.php');
 								</a>';
 						}
 						?>
-					</div>
 				</div>
 			</div>
 		</div>
