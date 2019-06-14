@@ -38,7 +38,7 @@ require_once('db.php');
 	<div id="wrapper">
 
 		<!-- Start Page -->
-		<div id="gallery">
+		<div class="stages" id="start">
 			<div class="galInner">
 				<div class="galHeader">
 					<h1><span data-l10n="gallery"></span></h1>
