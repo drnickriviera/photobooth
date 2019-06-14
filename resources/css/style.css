@@ -493,6 +493,7 @@ hr.small {
   height: 70px;
   left: 0;
   top: 0;
+  display: block;
   background: #e67e22;
   overflow: hidden;
   color: #fff;
