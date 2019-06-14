@@ -246,10 +246,6 @@ var photoBooth = (function () {
         public.openGallery($(this));
     });
 
-    $(window).load(function () {
-       public.openGallery($(this));
-    });
-
     // Close Gallery Overview
     $('.close_gal').click(function (e) {
         e.preventDefault();
