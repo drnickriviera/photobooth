@@ -7,7 +7,7 @@ L10N = {
 	"newPhoto": "New Picture",
 	"busy": "Processing",
 	"cheese": "Cheeeeeeeese!",
-	"qrHelp": "Connect to the wifi <strong>photobooth<\/strong>, to download the picture to your smartphone.",
+	"qrHelp": "Connect to the wifi <strong>Fotobox<\/strong>, to download the picture to your smartphone. Password: christinaundroman",
 	"error": "Something went wrong. Please try it again",
 	"reload": "Reload Page",
 	"print": "Print",
