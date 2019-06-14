@@ -493,7 +493,7 @@ hr.small {
   height: 70px;
   left: 0;
   top: 0;
-  display: block;
+  display: none;
   background: #e67e22;
   overflow: hidden;
   color: #fff;
@@ -554,7 +554,7 @@ hr.small {
 
 /* line 511, ../sass/style.scss */
 #gallery .images figure {
-  display: block;
+  display: none;
 }
 
 /* line 515, ../sass/style.scss */
