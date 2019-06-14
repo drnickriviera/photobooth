@@ -64,7 +64,7 @@ var photoBooth = (function () {
         public.initPhotoSwipeFromDOM('#galimages');
 
         startPage.show();
-        //public.openGallery();
+        public.openGallery($(this));
     }
 
     // check for resizing
