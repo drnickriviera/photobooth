@@ -246,9 +246,14 @@ var photoBooth = (function () {
 //        public.openGallery($(this));
 //    });
 
-    $(document).ready(function ({
+    $('#result .gallery, #start .gallery').click(function (e) {
+        e.preventDefault();
         public.openGallery($(this));
     });
+
+  setTimeout(function() {
+      $('#start .gallery').trigger('click');
+  }, 1e3);
 
 
     // Close Gallery Overview
