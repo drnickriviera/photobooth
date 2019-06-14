@@ -38,7 +38,12 @@ require_once('db.php');
 	<div id="wrapper">
 
 		<!-- Start Page -->
-		<div class="galInner" id="start">
+		<div id="gallery">
+			<div class="galInner">
+				<div class="galHeader">
+					<h1><span data-l10n="gallery"></span></h1>
+					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
+				</div>
 				<div class="images" id="galimages">
 					<?php
 					$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
@@ -54,6 +59,7 @@ require_once('db.php');
 					}
 					?>
 				</div>
+			</div>
 		</div>
 
 		<!-- Loader -->
