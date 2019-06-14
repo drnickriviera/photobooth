@@ -39,20 +39,24 @@ require_once('db.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<div class="images" id="galimages">
-				<?php
-				$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
-				foreach($imagelist as $image) {
+			<div id="gallery">
+				<div class="galInner">
+					<div class="images" id="galimages">
+						<?php
+						$imagelist = ($config['gallery']['newest_first'] === true) ? array_reverse($images) : $images;
+						foreach($imagelist as $image) {
 
-					$filename_photo = $config['folders']['images'] . DIRECTORY_SEPARATOR . $image;
-					$filename_thumb = $config['folders']['thumbs'] . DIRECTORY_SEPARATOR . $image;
+							$filename_photo = $config['folders']['images'] . DIRECTORY_SEPARATOR . $image;
+							$filename_thumb = $config['folders']['thumbs'] . DIRECTORY_SEPARATOR . $image;
 
-					echo '<a href="'.$filename_photo.'" data-size="1920x1280">
-							<img src="'.$filename_thumb.'" />
-							<figure>Caption</figure>
-						</a>';
-				}
-				?>
+							echo '<a href="'.$filename_photo.'" data-size="1920x1280">
+									<img src="'.$filename_thumb.'" />
+									<figure>Caption</figure>
+								</a>';
+						}
+						?>
+					</div>
+				</div>
 			</div>
 		</div>
 
