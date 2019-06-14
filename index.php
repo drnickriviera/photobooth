@@ -34,7 +34,7 @@ require_once('db.php');
 		var gallery_newest_first = <?php echo ($config['gallery']['newest_first']) ? 'true' : 'false'; ?>;
 	</script>
 </head>
-<body class="deselect", onload="public.openGallery()">"
+<body class="deselect">"
 	<div id="wrapper">
 
 		<!-- Start Page -->
