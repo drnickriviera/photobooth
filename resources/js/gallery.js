@@ -63,7 +63,7 @@ var photoBooth = (function () {
         $('.stages').hide();
         public.initPhotoSwipeFromDOM('#galimages');
 
-        //startPage.show();
+        startPage.show();
         public.openGallery();
     }
 
