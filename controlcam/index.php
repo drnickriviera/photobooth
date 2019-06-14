@@ -1,8 +1,8 @@
 <?php
 
-require_once('config.inc.php');
-require_once('folders.php');
-require_once('db.php');
+require_once('../config.inc.php');
+require_once('../db.php');
+require_once('../folders.php');
 
 ?>
 <html>
@@ -69,7 +69,7 @@ require_once('db.php');
 		<div class="stages" id="result">
 			<a href="#" class="btn homebtn"><i class="fa fa-home"></i> <span data-l10n="home"></span></a>
 			<div class="resultInner hidden">
-			<!-- <a href="#" class="btn gallery"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>-->
+			<a href="#" class="btn gallery"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
 			<?php if($config['use_qr']){ echo '<a href="#" class="btn qrbtn"><span class="qrbtnlabel"><i class="fa fa-qrcode"></i> <span data-l10n="qr"></span></span></a>'; } ?>
 			<?php if($config['use_print']){ echo '<a href="#" class="btn printbtn"><i class="fa fa-print"></i> <span data-l10n="print"></span></a>'; } ?>
 			<a href="#" class="btn newpic"><i class="fa fa-camera"></i> <span data-l10n="newPhoto"></span></a>
