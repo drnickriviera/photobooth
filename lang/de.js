@@ -7,7 +7,7 @@ L10N = {
 	"newPhoto": "Neues Bild",
 	"busy": "Bild wird verarbeitet",
 	"cheese": "Cheeeeeeeese!",
-	"qrHelp": "Zum download bitte mit dem WLAN <strong>Fotobox<\/strong> verbinden und dann dem Link im QRCode folgen.",
+	"qrHelp": "Zum downloaden bitte mit dem WLAN <strong>Fotobox<\/strong> verbinden und dann dem Link im QRCode folgen.",
 	"error": "Es ist ein Fehler aufgetreten, bitte versuche es erneut",
 	"reload": "Seite neu laden",
 	"print": "Drucken",
