@@ -81,7 +81,7 @@ require_once('db.php');
 		<div id="gallery">
 			<div class="galInner">
 				<div class="galHeader">
-					<span class="bigfont" data-l10n="gallery"></span>
+					<span class="bigfont" data-l10n="gallery">:</span>
 				  <span class="smallfont" data-l10n="downloadtext"></span>
 					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
 				</div>
