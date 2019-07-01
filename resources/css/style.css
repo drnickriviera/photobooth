@@ -50,6 +50,14 @@ h1, h2 {
   font-weight: 300;
 }
 
+.bigfont {
+    font-size: 20px;
+}
+
+.smallfont {
+    font-size: 10px;
+}
+
 /* line 56, ../sass/style.scss */
 .deselect ::selection {
   background: transparent;
