@@ -9,7 +9,7 @@ require_once('db.php');
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-	<title>Photobooth</title>
+	<title>Fotobox</title>
 
 
 	<!-- Favicon + Android/iPhone Icons -->
@@ -44,7 +44,6 @@ require_once('db.php');
 			</div>
 			<div class="inner">
 				<div class="names"><hr class="small" /><hr><div data-l10n="startScreen"></div><hr><hr class="small" /></div>
-				<a href="#" class="btn takePic"><i class="fa fa-camera"></i> <span data-l10n="takePhoto"></span></a>
 			</div>
 		</div>
 
@@ -137,7 +136,7 @@ require_once('db.php');
 					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 					<?php if($config['use_print']){ echo '<button class="gal-print" title="Drucken"><i class="fa fa-print"></i></button>'; } ?>
-					<?php if($config['use_qr']){ echo '<a href="#" class="btn qrbtn"><span class="qrbtnlabel"><i class="fa fa-qrcode"></i> <span data-l10n="qr"></span></span></a>'; } ?>
+					<?php if($config['use_qr']){ echo '<button class="gal-qr-code" title="Download"><i class="fa fa-qrcode"></i><span data-l10n="qr"></span></button>'; } ?>
 					<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
 					<!-- element will get class pswp__preloader--active when preloader is running -->
 					<div class="pswp__preloader">
@@ -178,7 +177,7 @@ require_once('db.php');
 	<script type="text/javascript" src="/resources/js/photoswipe.min.js"></script>
 	<script type="text/javascript" src="/resources/js/photoswipe-ui-default.min.js"></script>
 	<script type="text/javascript" src="/resources/js/photoinit.js"></script>
-	<script type="text/javascript" src="/resources/js/core.js"></script>
+	<script type="text/javascript" src="/resources/js/gallery.js"></script>
 	<script type="text/javascript" src="/lang/<?php echo $config['language']; ?>.js"></script>
 </body>
 </html>
