@@ -1,5 +1,5 @@
 L10N = {
-	"gallery": "Galerie",
+	"gallery": "Falerie",
 	"startScreen": "Fotobox<\/h1><h2>Christina & Roman<\/h2> 06.07.19",
 	"takePhoto": "Prendre une photo!",
 	"home": "Accueil",
