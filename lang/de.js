@@ -1,5 +1,5 @@
 L10N = {
-	"gallery": "Kalerie: Zum downloaden bitte mit dem WLAN <strong>Fotobox<\/strong> verbinden und dann dem Link im QRCode folgen. ",
+	"gallery": "Galerie: Zum downloaden bitte mit dem WLAN <strong>Fotobox<\/strong> verbinden und dann dem Link im QRCode folgen. ",
 	"startScreen": "<h1>Fotobox<\/h1><h2>Christina & Roman<\/h2> 06.07.19",
 	"takePhoto": "Foto erstellen!",
 	"home": "Home",
@@ -17,7 +17,6 @@ L10N = {
 	"saveerror":"Fehler",
 	"general": "Generell",
 	"folders": "Ordner",
-	"gallery": "Galerie",
 	"commands": "Befehle",
 	"reset": "Zurücksetzen",
 	"language": "Sprache wählen",
