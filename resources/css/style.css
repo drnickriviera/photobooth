@@ -51,11 +51,11 @@ h1, h2 {
 }
 
 .bigfont {
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .smallfont {
-    font-size: 10px;
+    font-size: 20px;
 }
 
 /* line 56, ../sass/style.scss */
