@@ -39,7 +39,7 @@ require_once('db.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallerybtn"></span></a>
+			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
 			<div class="blurred">
 			</div>
 			<div class="inner">
@@ -81,7 +81,7 @@ require_once('db.php');
 		<div id="gallery">
 			<div class="galInner">
 				<div class="galHeader">
-					<h1><span data-l10n="gallery"></span></h1>
+					<h1><span data-l10n="gallery"></span></h1><h3><span data-l10n="gallery"></span></h3>
 					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
 				</div>
 				<div class="images" id="galimages">
