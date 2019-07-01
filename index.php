@@ -39,7 +39,7 @@ require_once('db.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
+			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallerybtn"></span></a>
 			<div class="blurred">
 			</div>
 			<div class="inner">

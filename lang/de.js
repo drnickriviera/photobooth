@@ -1,5 +1,6 @@
 L10N = {
-	"gallery": "Galerie: Zum downloaden bitte mit dem WLAN <strong>Fotobox<\/strong> verbinden und dann dem Link im QRCode folgen. ",
+	"gallery": "Galerie: <h3>Zum downloaden bitte mit dem WLAN <strong>Fotobox<\/strong> verbinden und dann dem Link im QRCode folgen.</h3>",
+	"gallerybtn": "Galerie",
 	"startScreen": "<h1>Fotobox<\/h1><h2>Christina & Roman<\/h2> 06.07.19",
 	"takePhoto": "Foto erstellen!",
 	"home": "Home",
