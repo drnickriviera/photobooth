@@ -82,7 +82,6 @@ require_once('db.php');
 			<div class="galInner">
 				<div class="galHeader">
 					<span class="bigfont" data-l10n="gallery">:</span>
-				  <span class="smallfont" data-l10n="downloadtext"></span>
 					<a href="#" class="close_gal"><i class="fa fa-times"></i></a>
 				</div>
 				<div class="images" id="galimages">
@@ -138,7 +137,7 @@ require_once('db.php');
 					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 					<?php if($config['use_print']){ echo '<button class="gal-print" title="Drucken"><i class="fa fa-print"></i></button>'; } ?>
-					<?php if($config['use_qr']){ echo '<button class="gal-qr-code" title="Qr Code öffnen"><i class="fa fa-qrcode"></i></button>'; } ?>
+					<?php if($config['use_print']){ echo '<button class="gal-qr-code" title="Qr Code öffnen"><i class="fa fa-qrcode"></i></button>'; } ?>
 					<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
 					<!-- element will get class pswp__preloader--active when preloader is running -->
 					<div class="pswp__preloader">
